@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="1000dp"
+        android:layout_height="1dp"
+        android:background="#ff00ff" />
+    <!--<TextView
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="HELLO"
+        android:gravity="center"
+        android:background="#aaaaaa"
+        />-->
+    <FrameLayout
+        android:id="@+id/hearderview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+    <View
+        android:layout_width="1000dp"
+        android:layout_height="1dp"
+        android:background="#ff00ff" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:nestedScrollingEnabled="false"></android.support.v7.widget.RecyclerView>
+</LinearLayout>
